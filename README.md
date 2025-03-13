@@ -1,4 +1,27 @@
-# Project Setup
+# LiquPay
+
+LiquPay is a modern payment processing application designed to handle transactions efficiently and securely. This project leverages a variety of technologies to provide a robust and scalable solution for payment processing.
+
+## Technologies Used
+
+### Backend
+- **Node.js**: A JavaScript runtime built on Chrome's V8 JavaScript engine, used for building fast and scalable server-side applications.
+- **Express.js**: A minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications.
+- **PostgreSQL**: A powerful, open-source object-relational database system with a strong reputation for reliability, feature robustness, and performance.
+- **TypeScript**: A strongly typed programming language that builds on JavaScript, giving you better tooling at any scale.
+
+### Frontend
+- **React**: A JavaScript library for building user interfaces, maintained by Facebook and a community of individual developers and companies.
+- **Redux**: A predictable state container for JavaScript apps, often used with React for state management.
+
+### Environment Management
+- **dotenv**: A zero-dependency module that loads environment variables from a `.env` file into `process.env`.
+
+### Development Tools
+- **nvm (Node Version Manager)**: A version manager for Node.js, allowing you to switch between different versions of Node.js easily.
+- **npm (Node Package Manager)**: A package manager for JavaScript, included with Node.js, used to install dependencies and run scripts.
+
+## Project Setup
 
 **Node.js Version: v20.17.0**
 
@@ -36,4 +59,3 @@ To set up and run the project, follow these steps:
     ```
 
     This will start the development server and you can view the project in your browser at the specified local address (usually `http://localhost:5000`).
-
