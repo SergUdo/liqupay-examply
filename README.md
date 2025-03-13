@@ -15,16 +15,22 @@ To set up and run the project, follow these steps:
 2. **Set Up Environment Variables**:
     Create a [.env](http://_vscodecontentref_/0) file in the root directory of the project and add the following environment variables:
     ```properties
-    DATABASE_URL=postgresql://your_username:your_password@localhost:5432/liqupay_db
+    DATABASE_URL=postgresql://postgres:postgres@localhost:5432/liqupay_db
     LIQUPAY_API_KEY=your_actual_liqupay_api_key
     LIQUPAY_SECRET=your_actual_liqupay_secret
     APP_URL=http://localhost:5000
     ```
 
-    Make sure to replace `your_username`, `your_password`, `liqupay_db`, `your_actual_liqupay_api_key`, and `your_actual_liqupay_secret` with your actual values.
+    Make sure to replace `your_actual_liqupay_api_key` and `your_actual_liqupay_secret` with your actual values.
 
-3. **Start Development Server**:
-    After installing the dependencies and setting up the environment variables, start the development server using the following command:
+3. **Create the Database**:
+    Before starting the application, you need to create the database in PostgreSQL. Run the following command in the PostgreSQL console:
+    ```sql
+    CREATE DATABASE liqupay_db;
+    ```
+
+4. **Start Development Server**:
+    After installing the dependencies, setting up the environment variables, and creating the database, start the development server using the following command:
     ```sh
     npm run dev
     ```
