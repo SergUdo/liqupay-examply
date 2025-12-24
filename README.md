@@ -1,5 +1,6 @@
 # LiquPay
 
+Example application demonstrating integration with a payment API using React + Node.js + Express + PostgreSQL.
 LiquPay is a modern payment processing application designed to handle transactions efficiently and securely. This project leverages a variety of technologies to provide a robust and scalable solution for payment processing.
 
 ## Technologies Used
